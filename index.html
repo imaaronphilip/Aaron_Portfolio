@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aaron Philip — Product Designer, UI/UX Designer & Creative Technologist. Founder of ASTRA DTU, Editor of The Zenith Newsletter, INSPACE 25 Top 5.">
+    <title>Aaron Philip — Designing The Future</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <div class="loader-stars">
+                <span></span><span></span><span></span>
+                <span></span><span></span><span></span>
+                <span></span><span></span><span></span>
+            </div>
+            <div class="loader-text">
+                <span class="loader-name">Aaron Philip</span>
+                <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">
+                <span class="nav-logo-symbol">&#10038;</span>
+                <span class="nav-logo-text">Aaron Philip</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#work" class="nav-link">Work</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#publications" class="nav-link">Publications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-links">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#work" class="mobile-link">Work</a>
+            <a href="#experience" class="mobile-link">Experience</a>
+            <a href="#publications" class="mobile-link">Publications</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="hero">
+        <canvas class="hero-stars" id="starfield"></canvas>
+        <div class="hero-content">
+            <div class="hero-label">
+                <span class="hero-label-line"></span>
+                <span class="hero-label-text">Product Designer & Creative Technologist</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="hero-title-line">
+                    <span class="hero-title-word" data-delay="0">Designing</span>
+                </span>
+                <span class="hero-title-line">
+                    <span class="hero-title-word" data-delay="1">the</span>
+                    <span class="hero-title-word hero-title-italic" data-delay="2">future</span>
+                </span>
+                <span class="hero-title-line">
+                    <span class="hero-title-word" data-delay="3">of</span>
+                    <span class="hero-title-word hero-title-outline" data-delay="4">space</span>
+                </span>
+            </h1>
+            <p class="hero-subtitle">
+                I craft digital experiences that bridge design, technology, and the cosmos.
+                From UI/UX to rocketry — I believe in reaching beyond limits.
+            </p>
+            <div class="hero-cta">
+                <a href="#work" class="btn btn-primary">
+                    <span class="btn-text">Explore My Work</span>
+                    <span class="btn-icon">&#8595;</span>
+                </a>
+                <a href="#contact" class="btn btn-ghost">
+                    <span class="btn-text">Get In Touch</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="hero-scroll-line"></div>
+            <span class="hero-scroll-text">Scroll to explore</span>
+        </div>
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-visual">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-placeholder">
+                            <div class="about-initials">AP</div>
+                            <div class="about-image-overlay"></div>
+                        </div>
+                        <div class="about-image-frame"></div>
+                    </div>
+                    <div class="about-badge">
+                        <span class="about-badge-icon">&#9733;</span>
+                        <span class="about-badge-text">INSPACE 25 — Top 5</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h3 class="about-heading">
+                        I'm Aaron Philip — a <em>Product Designer</em>, <em>UI/UX enthusiast</em>, and <em>space-tech advocate</em> based in New Delhi.
+                    </h3>
+                    <div class="about-text">
+                        <p>
+                            Final Year BTech in Biotechnology at Delhi Technological University (DTU),
+                            I merge my passion for <strong>design thinking</strong> with <strong>technological innovation</strong>.
+                        </p>
+                        <p>
+                            I founded and led <strong>ASTRA</strong> — DTU's first-ever SpaceTech and Astronomy festival,
+                            bringing together 25,000+ participants and 25+ teams for an out-of-this-world experience.
+                            As the editor of <strong>The Zenith</strong> newsletter, I crafted compelling narratives
+                            for Team Rocketry DTU across seven acclaimed editions.
+                        </p>
+                        <p>
+                            From securing a <strong>Top 5 position at INSPACE 25</strong> to building a community-driven platform — I'm driven by curiosity, collaboration,
+                            and the pursuit of excellence.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="7">0</span>
+                            <span class="stat-label">Newsletter Editions</span>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">
+                                <span class="stat-number" data-target="25000">0</span>
+                                <span class="stat-suffix">+</span>
+                            </div>
+                            <span class="stat-label">ASTRA Participants</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="25">0</span>
+                            <span class="stat-suffix">+</span>
+                            <span class="stat-label">Teams at ASTRA</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="1">0</span>
+                            <span class="stat-label">INSPACE 25 — Top 5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="skills-section">
+                <h3 class="skills-title">Tools & Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">&#9998;</div>
+                        <span class="skill-name">Figma</span>
+                        <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">&#9673;</div>
+                        <span class="skill-name">UI/UX Design</span>
+                        <span class="skill-level">Expert</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">&#9654;</div>
+                        <span class="skill-name">Motion Design</span>
+                        <span class="skill-level">AE / Premiere</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">&#9830;</div>
+                        <span class="skill-name">Prototyping</span>
+                        <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">&#9733;</div>
+                        <span class="skill-name">Design Systems</span>
+                        <span class="skill-level">Building</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">&#9829;</div>
+                        <span class="skill-name">Content Strategy</span>
+                        <span class="skill-level">Editorial</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">&#128640;</div>
+                        <span class="skill-name">SpaceTech</span>
+                        <span class="skill-level">Advocate</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">&#128172;</div>
+                        <span class="skill-name">Team Leadership</span>
+                        <span class="skill-level">Event Scale</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MARQUEE DIVIDER ==================== -->
+    <div class="marquee-divider">
+        <div class="marquee-track">
+            <span>Product Design</span><span class="marquee-dot">&#10038;</span>
+            <span>UI/UX</span><span class="marquee-dot">&#10038;</span>
+            <span>SpaceTech</span><span class="marquee-dot">&#10038;</span>
+            <span>Creative Direction</span><span class="marquee-dot">&#10038;</span>
+            <span>Event Management</span><span class="marquee-dot">&#10038;</span>
+            <span>Content Strategy</span><span class="marquee-dot">&#10038;</span>
+            <span>Editorial Design</span><span class="marquee-dot">&#10038;</span>
+            <span>Product Design</span><span class="marquee-dot">&#10038;</span>
+            <span>UI/UX</span><span class="marquee-dot">&#10038;</span>
+            <span>SpaceTech</span><span class="marquee-dot">&#10038;</span>
+            <span>Creative Direction</span><span class="marquee-dot">&#10038;</span>
+            <span>Event Management</span><span class="marquee-dot">&#10038;</span>
+            <span>Content Strategy</span><span class="marquee-dot">&#10038;</span>
+            <span>Editorial Design</span><span class="marquee-dot">&#10038;</span>
+        </div>
+    </div>
+
+    <!-- ==================== WORK / PROJECTS ==================== -->
+    <section class="work section" id="work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Selected Work</h2>
+            </div>
+
+            <!-- Project 1: Astra -->
+            <div class="project">
+                <div class="project-meta">
+                    <span class="project-tag">Event Design & Branding</span>
+                    <span class="project-year">2025</span>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">ASTRA</h3>
+                    <p class="project-subtitle">DTU's First SpaceTech & Astronomy Festival</p>
+                    <p class="project-description">
+                        Founded and led DTU's inaugural SpaceTech and Astronomy fest — ASTRA.
+                        Designed the complete visual identity, event branding, and digital presence.
+                        Successfully hosted 25,000+ participants and 25+ competing teams, establishing
+                        a new tradition for the aerospace community at DTU.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Event Branding</span>
+                        <span class="tag">Visual Identity</span>
+                        <span class="tag">Leadership</span>
+                        <span class="tag">Community</span>
+                    </div>
+                    <div class="project-visual project-visual-poster">
+                        <img src="assets/images/Astra.jpeg" alt="ASTRA DTU - Cosmic poster" class="project-img" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: The Zenith -->
+            <div class="project project-reverse">
+                <div class="project-meta">
+                    <span class="project-tag">Editorial Design & Content</span>
+                    <span class="project-year">2025</span>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">The Zenith</h3>
+                    <p class="project-subtitle">Official Newsletter — Team Rocketry DTU</p>
+                    <p class="project-description">
+                        Founded, designed, and edited The Zenith — the official newsletter of Team Rocketry DTU.
+                        Published seven acclaimed editions, each crafted with
+                        meticulous attention to typography, layout, and narrative storytelling.
+                        "Ad Astra Per Aspera" — through hardships to the stars.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Newsletter</span>
+                        <span class="tag">Editorial Design</span>
+                        <span class="tag">Typography</span>
+                        <span class="tag">Content Creation</span>
+                    </div>
+                    <div class="project-visual project-visual-poster">
+                        <img src="assets/images/Edition_7_Aug_2025.jpeg" alt="The Zenith Edition 7 cover" class="project-img" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: INSPACE 25 -->
+            <div class="project">
+                <div class="project-meta">
+                    <span class="project-tag">National Space Competition</span>
+                    <span class="project-year">2025</span>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">INSPACE 25</h3>
+                    <p class="project-subtitle">Top 5 Teams — National SpaceTech Competition</p>
+                    <p class="project-description">
+                        Led a team to a Top 5 position at INSPACE 25, a premier national space technology competition.
+                        Developed an innovative solution that stood out among hundreds of participating teams.
+                        A testament to collaborative problem-solving and design-driven engineering.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Innovation</span>
+                        <span class="tag">SpaceTech</span>
+                        <span class="tag">Team Leadership</span>
+                        <span class="tag">Problem Solving</span>
+                    </div>
+                    <div class="project-visual project-visual-poster">
+                        <img src="assets/images/InSpace.jpeg" alt="INSPACE 25 - Team with rocket model" class="project-img" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4: Cosmic Chronicles -->
+            <div class="project project-reverse">
+                <div class="project-meta">
+                    <span class="project-tag">Content Creation & Design</span>
+                    <span class="project-year">2026</span>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Cosmic Chronicles</h3>
+                    <p class="project-subtitle">Science Communication through Design</p>
+                    <p class="project-description">
+                        Created engaging science communication content for the Cosmology Club DTU's
+                        "The Cosmic Chronicles" series. Designed editorial layouts for complex
+                        scientific concepts — from the Oh-My-God particle to dark matter —
+                        making astrophysics accessible and visually compelling.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Science Communication</span>
+                        <span class="tag">Editorial Layout</span>
+                        <span class="tag">Astrophysics</span>
+                        <span class="tag">Visual Storytelling</span>
+                    </div>
+                    <div class="project-visual project-visual-poster">
+                        <img src="assets/images/Cosmic_Chronicles.jpeg" alt="Cosmic Chronicles - The Oh-My-God Particle" class="project-img" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE ==================== -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-role">Founder & Lead</h3>
+                            <span class="timeline-date">2025</span>
+                        </div>
+                        <p class="timeline-org">ASTRA — DTU SpaceTech & Astronomy Fest</p>
+                        <p class="timeline-desc">Founded DTU's first SpaceTech festival. Led end-to-end planning, branding, and execution for 25,000+ participants and 25+ competing teams.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-role">Editor & Founder</h3>
+                            <span class="timeline-date">2025</span>
+                        </div>
+                        <p class="timeline-org">The Zenith — Team Rocketry DTU</p>
+                        <p class="timeline-desc">Founded and edited the official newsletter, publishing 7 acclaimed editions with editorial design, content strategy, and team management.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-role">Competition Finalist</h3>
+                            <span class="timeline-date">2025</span>
+                        </div>
+                        <p class="timeline-org">INSPACE 25 — Top 5 Teams</p>
+                        <p class="timeline-desc">Led a team to a Top 5 position at INSPACE 25, a premier national space technology competition, developing an innovative space-tech solution.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-role">President</h3>
+                            <span class="timeline-date">2023 — Present</span>
+                        </div>
+                        <p class="timeline-org">Cosmology Club DTU</p>
+                        <p class="timeline-desc">Designing science communication content, creating visual narratives for astrophysics topics, and making cosmos accessible to all.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PUBLICATIONS ==================== -->
+    <section class="publications section" id="publications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Publications</h2>
+            </div>
+
+            <div class="newsletter-showcase">
+                <h3 class="newsletter-showcase-title">Edition Archive</h3>
+                <p class="newsletter-showcase-subtitle">Nine editions of editorial design, crafted for Team Rocketry DTU & Cosmology Club DTU</p>
+                <div class="newsletter-gallery">
+                    <div class="newsletter-gallery-item">
+                        <img src="assets/images/Edition_7_Aug_2025.jpeg" alt="The Zenith Edition 7 - The Team" loading="lazy">
+                        <span class="newsletter-gallery-label">Edition 7 — Aug 2025</span>
+                    </div>
+                    <div class="newsletter-gallery-item">
+                        <img src="assets/images/Edition_7_Aug_2025_Final_Note.jpeg" alt="The Zenith Edition 7 - Final Note from our Editor" loading="lazy">
+                        <span class="newsletter-gallery-label">Edition 7 — Aug 2025</span>
+                    </div>
+                    <div class="newsletter-gallery-item">
+                        <img src="assets/images/Edition_6_Jul_2025.jpeg" alt="The Zenith Edition 6 - The Oh-My-God Particle" loading="lazy">
+                        <span class="newsletter-gallery-label">Edition 6 — Oct 2026</span>
+                    </div>
+                    <div class="newsletter-gallery-item">
+                        <img src="assets/images/Edition_4_Mar_2025.jpeg" alt="The Zenith Edition 4 - Vintage Cover" loading="lazy">
+                        <span class="newsletter-gallery-label">Edition 4 — May 2025</span>
+                    </div>
+                    <div class="newsletter-gallery-item">
+                        <img src="assets/images/Edition_3_Apr_2025.jpeg" alt="The Zenith Edition 3 - What Dreams Are Made Of" loading="lazy">
+                        <span class="newsletter-gallery-label">Edition 3 — Apr 2025</span>
+                    </div>
+                    <div class="newsletter-gallery-item">
+                        <img src="assets/images/Edition_2_Mar_2025.jpeg" alt="The Zenith Edition 2 - The Sky Is No Longer The Limit" loading="lazy">
+                        <span class="newsletter-gallery-label">Edition 2 — Mar 2025</span>
+                    </div>
+                    <div class="newsletter-gallery-item newsletter-gallery-cosmic">
+                        <img src="assets/images/Cosmic_Chronicles.jpeg" alt="Cosmic Chronicles Edition 6 - The Oh-My-God Particle" loading="lazy">
+                        <span class="newsletter-gallery-label">Cosmic Chronicles — Oct 2026</span>
+                    </div>
+                    <div class="newsletter-gallery-item newsletter-gallery-cosmic">
+                        <img src="assets/images/Cosmology_Workshop.jpeg" alt="Astronomy Workshop" loading="lazy">
+                        <span class="newsletter-gallery-label">Astronomy Workshop</span>
+                    </div>
+                    <div class="newsletter-gallery-item newsletter-gallery-cosmic">
+                        <img src="assets/images/Astra.jpeg" alt="ASTRA" loading="lazy">
+                        <span class="newsletter-gallery-label">ASTRA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Let's Connect</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="contact-heading">
+                        Just one small action<br>
+                        stands between us<br>
+                        and <em>getting acquainted.</em>
+                    </h3>
+                    <p class="contact-text">
+                        I'm always open to discussing design opportunities, space-tech projects,
+                        collaborative ventures, or just a good conversation about the cosmos.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:philipaaron321@gmail.com.com" class="contact-link">
+                            <span class="contact-link-icon">&#9993;</span>
+                            <span class="contact-link-text">philipaaron321@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aaron-philip-b97880286?utm_source=share_via&utm_content=profile&utm_medium=member_ios" class="contact-link">
+                            <span class="contact-link-text">LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Name</label>
+                            <input class="form-input" type="text" id="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email</label>
+                            <input class="form-input" type="email" id="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message</label>
+                            <textarea class="form-input form-textarea" id="message" rows="5" placeholder="Tell me about your project, idea, or just say hello..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon">&#8594;</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="footer-logo">&#10038;</span>
+                    <span class="footer-name">Aaron Philip</span>
+                </div>
+                <p class="footer-tagline">Designing the future, one pixel at a time. Ad Astra Per Aspera.</p>
+                <div class="footer-divider"></div>
+                <div class="footer-bottom">
+                    <span>&copy; 2025 Aaron Philip. All rights reserved.</span>
+                    <span class="footer-built">Crafted with starlight & code.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
